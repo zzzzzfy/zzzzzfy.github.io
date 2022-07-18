@@ -1,0 +1,75 @@
+/* common */
+body {
+    max-width: 52em;
+    margin: auto;
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+    margin-top: 50px;
+    background-color: white;
+    font-family: "Helvetica Neue",Ubuntu,Arial,PingFang,SimHei,sans-serif;
+    font-size: 16px;
+    line-height: 1.8em;
+  }
+  
+  a {
+    color: #007FFF;
+    text-decoration: none;
+  }
+  
+  a:hover{
+    text-decoration: underline;
+  }
+  
+  .zh-hans {
+    /* https://zenozeng.github.io/fonts.css/ */
+    font-family: "Songti SC", "Noto Serif CJK SC", "Source Han Serif SC", "Source Han Serif CN", STSong, "AR PL New Sung", "AR PL SungtiL GB", NSimSun, SimSun, "TW\-Sung", "WenQuanYi Bitmap Song", "AR PL UMing CN", "AR PL UMing HK", "AR PL UMing TW", "AR PL UMing TW MBE", PMingLiU, MingLiU, serif;
+  }
+  
+  .name {
+    font-size: 36px;
+    font-family: "Linux Libertine","Linux Libertine O","Palatino Linotype",Palatino,"DejaVu Serif",Georgia,serif;
+    margin-bottom: 20px;
+  }
+  
+  .section-title {
+    font-family:  "Linux Libertine","Linux Libertine O","Palatino Linotype",Palatino,"DejaVu Serif",Georgia,serif;
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    padding: 0px;
+    margin: 0 0 10px 25px;
+  }
+  
+  /* social-icon */
+  .social-icon {
+    margin-bottom: 0;
+    padding: 0;
+  }
+  
+  .social-icon ul {
+    margin: 0;
+    padding-inline-start: 0px;
+  }
+  
+  .social-icon ul li {
+    display: inline-block;
+  }
+  
+  .social-icon ul li a {
+      font-size: 16px;
+      padding-right: 20px;
+      text-align: center;
+  }
+  
+  .footer {
+      font-size: 14px;
+      text-align: center;
+      margin-top: 20px;
+      padding-bottom: 30px;
+      color: #8a8a8a;
+  }
+  
