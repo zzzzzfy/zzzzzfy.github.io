@@ -1,269 +1,470 @@
-    <html>
+<!DOCTYPE html>
+<html>
 
 <head>
-
     <title>Fangyuan ZHANG</title>
-    <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/jpg" href="icons/cat8600.jpg">
     <script src="https://kit.fontawesome.com/d6a007f279.js" crossorigin="anonymous"></script>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-151913835-2"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
-
         gtag('config', 'UA-151913835-2');
     </script>
-
-
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #333;
+            line-height: 1.7;
+            background-color: #fafafa;
+        }
+        a { color: #1a73e8; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        .main {
+            max-width: 860px;
+            margin: 40px auto;
+            padding: 30px 40px;
+            background: #fff;
+            box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+            border-radius: 6px;
+        }
+        .name {
+            font-size: 28px;
+            font-weight: 700;
+            margin-bottom: 4px;
+            color: #222;
+        }
+        .subtitle { font-size: 15px; color: #555; margin-bottom: 2px; }
+        .social-icon ul { list-style: none; display: flex; flex-wrap: wrap; gap: 18px; margin-top: 10px; }
+        .social-icon li { font-size: 14px; }
+        .social-icon i { margin-right: 4px; color: #555; }
+        .section-title {
+            font-size: 20px;
+            font-weight: 700;
+            margin-top: 30px;
+            margin-bottom: 4px;
+            color: #222;
+        }
+        hr { border: none; border-top: 2px solid #1a73e8; margin-bottom: 14px; }
+        p { margin-bottom: 10px; font-size: 15px; }
+        ul { padding-left: 22px; }
+        li { margin-bottom: 12px; font-size: 14.5px; }
+        .pub-section-sub { font-size: 16px; font-weight: 600; margin: 18px 0 8px 0; color: #444; }
+        .award-tag {
+            display: inline-block;
+            background: #e8f5e9;
+            color: #2e7d32;
+            font-size: 12px;
+            padding: 1px 8px;
+            border-radius: 3px;
+            font-weight: 600;
+        }
+        .openings-box {
+            background: #fff8e1;
+            border-left: 4px solid #f9a825;
+            border-radius: 4px;
+            padding: 16px 20px;
+            margin-top: 4px;
+            font-size: 14.5px;
+            line-height: 1.8;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 16px;
+            border-top: 1px solid #eee;
+            font-size: 13px;
+            color: #999;
+        }
+        @media (max-width: 600px) {
+            .main { margin: 10px; padding: 18px; }
+            .name { font-size: 22px; }
+            .social-icon ul { flex-direction: column; gap: 8px; }
+        }
+    </style>
 </head>
 
 <body>
     <div class="main">
         <div>
-            <div class="name">Fangyuan ZHANG</small></div>
-            <!-- <div>Ph.D. Candidate, CUHK</div> -->
-            <div>Email:<a href= "mailto:zzzzzfy@outlook.com">zzzzzfy@outlook.com</a></div>
-        
-            <!-- <div>Office: Room 412, Chow Yei Ching Building</div> -->
+            <div class="name">Fangyuan ZHANG (张芳源)</div>
+            <div class="subtitle">Professor, Harbin Institute of Technology (Shenzhen)</div>
+            <div class="subtitle" style="margin-top:6px;">
+                Email: <a href="mailto:zzzzzfy@outlook.com">zzzzzfy@outlook.com</a>
+                &nbsp;|&nbsp; Phone: +86 177-9803-8656
+            </div>
 
             <div class="social-icon">
                 <ul>
                     <li>
-                        <i class="fab fa-linkedin"></i> <a title="LinkedIn"
-                            href="https://www.linkedin.com/in/fangyuan-zhang-37a181143/" target="_blank"
-                            rel="noopener noreferrer">LinkedIn</a>
+                        <i class="fab fa-linkedin"></i>
+                        <a title="LinkedIn" href="https://www.linkedin.com/in/fangyuan-zhang-37a181143/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
                     </li>
-                    <li><i class="fab fa-github" aria-hidden="true"></i>
-                        <a title="Github" href="https://github.com/zzzzzfy" target="_blank"
-                            rel="noopener noreferrer">Github</a>
+                    <li>
+                        <i class="fab fa-github" aria-hidden="true"></i>
+                        <a title="Github" href="https://github.com/zzzzzfy" target="_blank" rel="noopener noreferrer">Github</a>
                     </li>
-                    <li><i class="fas fa-envelope"></i>
-                        <a title="Email" href="zzzzzfy@outlook.com" target="_blank"
-                            rel="noopener noreferrer">Email</a>
+                    <li>
+                        <i class="fas fa-globe"></i>
+                        <a title="Homepage" href="https://homepage.hit.edu.cn/zhangfangyuan" target="_blank" rel="noopener noreferrer">HIT Homepage</a>
+                    </li>
+                    <li>
+                        <i class="fab fa-twitter"></i>
+                        <a title="Twitter/X" href="https://x.com/zfynew" target="_blank" rel="noopener noreferrer">@zfynew</a>
+                    </li>
+                    <li>
+                        <i class="fas fa-envelope"></i>
+                        <a title="Email" href="mailto:zzzzzfy@outlook.com" target="_blank" rel="noopener noreferrer">Email</a>
                     </li>
                 </ul>
             </div>
-
         </div>
 
+        <!-- About Me -->
         <div>
             <div class="section-title">About Me</div>
             <hr>
             <p>
-                I am currently a principal researcher of Huawei Hong Kong Research Center. I recevied my PhD in 2025 from the Chinese University of Hong Kong advised by Professor <a href="https://www1.se.cuhk.edu.hk/~swang/" target="_blank"
-                    rel="noopener noreferrer">Sibo WANG</a></li>. Previously, I obtained my Bachelor degree from 
-                     <a href="https://acm.sjtu.edu.cn/home" target="_blank"
-                    rel="noopener noreferrer">ACM Class </a>
-                    at Shanghai Jiao Tong University in 2021. 
+                I am currently a Professor at <b>Harbin Institute of Technology (Shenzhen)</b>. My research focuses on the intersection of Data and AI, with emphases on data science, vector search and indexing, massive data algorithms, and LLM-based data applications.
             </p>
-
             <p>
-                My research interests include algorithms for big data analytics and processing. I am always open for possible collaborations, please do not hesitate to contact me if you are interested!
+                Prior to joining HIT(SZ), I was a Principal Researcher at <a href="https://www.huawei.com/" target="_blank" rel="noopener noreferrer">Huawei Hong Kong Research Center</a> (Mar. 2025 – Feb. 2026), conducting research and implementation in the Data+AI domain. I received my Ph.D. in 2025 from <a href="https://www.cuhk.edu.hk/" target="_blank" rel="noopener noreferrer">The Chinese University of Hong Kong</a>. Previously, I obtained my Bachelor's degree from the <a href="https://acm.sjtu.edu.cn/home" target="_blank" rel="noopener noreferrer">ACM Honored Class</a> (Top 5% of CS students) at Shanghai Jiao Tong University in 2021.
+            </p>
+            <p>
+                I am always open for possible collaborations. Please do not hesitate to contact me if you are interested!
+            </p>
+        </div>
+        <div>
+            <div class="section-title">Openings / 招生招聘</div>
+            <hr>
+            <div class="openings-box">
+                <b>I am actively recruiting PhD students, Master's students, Postdocs, Research Assistants (RA), and interns</b> to join my group at HIT (Shenzhen). Research topics include but are not limited to: Data+AI, vector search &amp; indexing, Agent Memory, LLM-based applications, and big data algorithms. If you are interested, please send your CV and a brief research statement to <a href="mailto:zzzzzfy@outlook.com">zzzzzfy@outlook.com</a>.
+                <br><br>
+                课题组长期招收<b>博士生、硕士生、博士后、研究助理（RA）和实习生</b>，欢迎对Data+AI、向量检索、Agent Memory、LLM 应用、大数据算法等方向感兴趣的同学和研究者联系我！
+            </div>
+        </div>
+        <!-- Research Interests -->
+        <div>
+            <div class="section-title">Research Interests</div>
+            <hr>
+            <p>
+                My research focuses on algorithms and systems for <b>Big Data Management</b> and <b>Data Science</b>. Current interests include <b>Data+AI</b> analytics algorithms and systems, covering topics such as vector search &amp; indexing, retrieval-augmented generation (RAG), LLM-based applications, graph analytics, and scalable data processing systems.
             </p>
         </div>
 
+        <!-- Publications -->
         <div>
             <div class="section-title">Publications</div>
             <hr>
+
+            <div class="pub-section-sub">Under Review / Preprints</div>
             <ul>
-                <li>BOTBIN: Accelerated Indexing for Structural Graph Clustering on Dynamic Graphs.
+                <li>Effective Structurally Similar Community Search in Large Temporal Graphs.
                     <br>
-                    <b>Fangyuan Zhang</b>, Qintian Guo, Junhao Gan, Sibo Wang
+                    Yue Zhang, Yingli Zhou, <b>Fangyuan Zhang</b>, Xiaolin Han, Chenhao Ma.
                     <br>
-                    Transactions on Knowledge and Data Engineering (<b>TKDE</b>), To Appear, 2025.
+                    <b>SIGMOD</b>, Under review, 2027.
                 </li>
 
-                <li>AnalyticDB-PG: A Cloud-native High-performance Data Warehouse in Alibaba Cloud.
+                <li>Memory in the LLM Era: Modular Architectures and Strategies in a Unified Framework.
                     <br>
-                    <b>Fangyuan Zhang^</b>, Caihua Yin, Hua Fan, Fenghua Fang, Yineng Chen, Xuqi Wang, Mengqi Wu, Bing Chen, Tianbo Jin, Sibo Wang, Wenchao Zhou, Feifei Li
+                    Yanchen Wu, Tenghui Lin, Yingli Zhou, <b>Fangyuan Zhang</b>, Qintian Guo, Xun Zhou, Sibo Wang, Xilin Liu, Yuchi Ma, Yixiang Fang.
                     <br>
-                    Proceedings of the VLDB Endowment (<b>VLDB</b>), 18(12): 5139-5152, 2025.
+                    <b>VLDB</b>, Under review, 2027.
                 </li>
-            
+
+                <li>Nova: A Multi-Purpose Vector Engine for Low-Latency, Multi-Tenant, and Cross-Table Hybrid Retrieval.
+                    <br>
+                    Dechuang Chen, Bing Chen, Jianwei Lu, ..., <b>Fangyuan Zhang</b>, Sibo Wang, Caihua Yin, Wenchao Zhou, Feifei Li.
+                    <br>
+                    <b>VLDB</b>, Under review, 2026.
+                </li>
+
+                <li>PITAI: Effective Pivot-Based Indexing for Intervals.
+                    <br>
+                    Youran Sun, Yingli Zhou, <b>Fangyuan Zhang</b>, Wensheng Luo, Yin Yang, Xun Zhou.
+                    <br>
+                    <b>VLDB</b>, Under review, 2026.
+                </li>
+
+                <li>DocMaster: A Hierarchical Structure-Aware System for Document Analysis.
+                    <br>
+                    Ziqi Chen, Yingli Zhou, <b>Fangyuan Zhang</b>, Quanqing Xu, Chuanhui Yang, Yixiang Fang.
+                    <br>
+                    <b>VLDB</b>, Under review, 2026.
+                </li>
+
+                <li>LiCoMemory: Lightweight and Cognitive Agentic Memory for Efficient Long-Term Reasoning.
+                    <br>
+                    Zhengjun Huang, Zhoujin Tian, Qintian Guo, <b>Fangyuan Zhang</b>, et al., Xiaofang Zhou.
+                    <br>
+                    <b>ACL</b>, Under review, 2026.
+                </li>
+
+                <li>Breaking the Static Graph: Context-Aware Traversal for Robust Retrieval-Augmented Generation.
+                    <br>
+                    Lau Kwun Hang, <b>Fangyuan Zhang</b>, Yingli Zhou, Ruiyuan Zhang, Qintian Guo, Xiaofang Zhou.
+                    <br>
+                    <b>ACL</b>, Under review, 2026.
+                </li>
+
+                <li>Wukong: A Fast Video Track Query Framework Based on Optimized Sampling and Memoization Mechanism.
+                    <br>
+                    Peijun Zheng, Jianer Zhou, Weichao Li, Xun Zhou, <b>Fangyuan Zhang</b>.
+                    <br>
+                    <b>ICME</b>, Under review, 2026.
+                </li>
+
+                <li>EraRAG: Efficient and Incremental Retrieval Augmented Generation for Growing Corpora.
+                    <br>
+                    <b>Fangyuan Zhang*</b>, Zhengjun Huang*, Yingli Zhou*, Qintian Guo, et al., Xiaofang Zhou.
+                    <br>
+                    <b>KDD</b>, Under review, 2026.
+                </li>
+            </ul>
+
+            <div class="pub-section-sub">Published / Accepted</div>
+            <ul>
+                <li>Concurrent Copy-on-Write to Tree Structures.
+                    <br>
+                    Guanhao Hou, Dechuang Chen, Qintian Guo, <b>Fangyuan Zhang</b>, Sibo Wang.
+                    <br>
+                    <b>SIGMOD</b>, 2026.
+                </li>
+
+                <li>LLM-Based Test Case Generation in DBMS through Monte Carlo Tree Search.
+                    <br>
+                    Yujia Chen, Yingli Zhou, <b>Fangyuan Zhang</b>, Cuiyun Gao.
+                    <br>
+                    <b>ICSE</b>, 2026. <span class="award-tag">Distinguished Solution Paper</span>
+                </li>
+
+                <li>BOTBIN: Accelerated Indexing for Structural Graph Clustering on Dynamic Graphs.
+                    <br>
+                    <b>Fangyuan Zhang</b>, Qintian Guo, Junhao Gan, Sibo Wang.
+                    <br>
+                    <b>TKDE</b>, 2026.
+                </li>
+
                 <li>Streaming View: An Efficient Data Processing Engine for Modern Real-time Data Warehouse of Alibaba Cloud.
                     <br>
-                    <b>Fangyuan Zhang^</b>, Mengqi Wu, Chunlei Xu, Yunong Bao, Jiyu Qiao, Yingli Zhou, Hua Fan, Caihua Yin, Wenchao Zhou, Feifei Li
+                    <b>Fangyuan Zhang*</b>, Mengqi Wu*, Chunlei Xu, Yunong Bao, Jiyu Qiao, Yingli Zhou, Hua Fan, Caihua Yin, Wenchao Zhou, Feifei Li.
                     <br>
                     Proceedings of the VLDB Endowment (<b>VLDB</b>), 18(12): 5153-5165, 2025.
                 </li>
-    <li>Efficient Concurrent Updates to Persistent Randomized Binary Search Trees.
-        <br>
-        Guanhao Hou, Jinchao Huang, <b>Fangyuan Zhang</b>, Sibo Wang
-        <br>
-        Proceedings of the VLDB Endowment (<b>VLDB</b>), 18(5): 1481-1494, 2025.
-    </li>
+
+                <li>AnalyticDB-PG: A Cloud-native Real-time Intelligent Data Warehouse.
+                    <br>
+                    <b>Fangyuan Zhang*</b>, CaiHua Yin*, Hua Fan, Fenghua Fang, Yineng Chen, Xuqi Wang, Mengqi Wu, Bing Chen, Tianbo Jin, Sibo Wang, Wenchao Zhou, Feifei Li.
+                    <br>
+                    Proceedings of the VLDB Endowment (<b>VLDB</b>), 18(12): 5139-5152, 2025.
+                </li>
+
                 <li>Scalable Graph-based Retrieval-Augmented Generation via Locality-Sensitive Hashing.
                     <br>
-                    <b>Fangyuan Zhang^</b>, Zhengjun Huang, Yingli Zhou, Qintian Guo, Wensheng Luo, Xiaofang Zhou
+                    <b>Fangyuan Zhang</b>, Zhengjun Huang, Yingli Zhou, Qintian Guo, Wensheng Luo, Xiaofang Zhou.
                     <br>
-                    Proceedings of the VLDB Endowment (<b>VLDB</b>), Workshop, 2025.
+                    Proceedings of the VLDB Endowment (<b>VLDB</b>), 2025.
                 </li>
-    <li>Efficient Dynamic Indexing for Range Filtered Approximate Nearest Neighbor Search.
-        <br>
-        <b>Fangyuan Zhang</b>, Mengxu Jiang, Guanhao Hou, Jieming Shi, Hua Fan, Wenchao Zhou, Feifei Li, Sibo Wang
-        <br>
-        Proceedings of the ACM SIGMOD International Conference on Management of Data (<b>SIGMOD</b>), 152:1-152:26, 2025.
-    </li>
-    <li>DIGRA: A Dynamic Graph Indexing for Approximate Nearest Neighbor Search with Range Filter.
-        <br>
-        Mengxu Jiang, Zhi Yang, <b>Fangyuan Zhang</b>, Guanhao Hou, Jieming Shi, Wenchao Zhou, Feifei Li, Sibo Wang
-        <br>
-        Proceedings of the ACM SIGMOD International Conference on Management of Data (<b>SIGMOD</b>), 148:1-148:26, 2025.
-    </li>
-    <li>Efficient Approximation Algorithms for Minimum Cost Seed Selection with Probabilistic Coverage Guarantee.
-        <br>
-        Chen Feng, Xingguang Chen, Qintian Guo, <b>Fangyuan Zhang</b>, Sibo Wang
-        <br>
-        Proceedings of the ACM SIGMOD International Conference on Management of Data (<b>SIGMOD</b>), 2(4), 197:1-197:26, 2025.
-    </li>
 
-                <li>FICOM: An Effective and Scalable Active Learning Framework for GNNs on Semi-supervised Node Classification
+                <li>Efficient Dynamic Indexing for Range Filtered Approximate Nearest Neighbor Search.
                     <br>
-                    Xingyi Zhang, Jinchao Huang, <b>Fangyuan Zhang</b>, Sibo Wang
+                    <b>Fangyuan Zhang</b>, Mengxu Jiang, Guanhao Hou, Jieming Shi, Hua Fan, Wenchao Zhou, Feifei Li, Sibo Wang.
+                    <br>
+                    Proceedings of the ACM SIGMOD International Conference on Management of Data (<b>SIGMOD</b>), 152:1-152:26, 2025.
+                </li>
+
+                <li>DIGRA: A Dynamic Graph Indexing for Approximate Nearest Neighbor Search with Range Filter.
+                    <br>
+                    Mengxu Jiang, Zhi Yang, <b>Fangyuan Zhang</b>, Guanhao Hou, Jieming Shi, Wenchao Zhou, Feifei Li, Sibo Wang.
+                    <br>
+                    Proceedings of the ACM SIGMOD International Conference on Management of Data (<b>SIGMOD</b>), 148:1-148:26, 2025.
+                </li>
+
+                <li>Efficient Concurrent Algorithms for Updates to Persistent Binary Search Trees.
+                    <br>
+                    Guanhao Hou, Jinchao Huang, <b>Fangyuan Zhang</b>, Sibo Wang.
+                    <br>
+                    Proceedings of the VLDB Endowment (<b>VLDB</b>), 18(5): 1481-1494, 2025.
+                </li>
+
+                <li>Efficient Approximation Algorithms for Minimum Cost Seed Selection with Probabilistic Coverage Guarantee.
+                    <br>
+                    Chen Feng, Xingguang Chen, Qintian Guo, <b>Fangyuan Zhang</b>, Sibo Wang.
+                    <br>
+                    Proceedings of the ACM SIGMOD International Conference on Management of Data (<b>SIGMOD</b>), 2(4), 197:1-197:26, 2025.
+                </li>
+
+                <li>FICOM: An Effective and Scalable Active Learning Framework for GNNs on Semi-supervised Node Classification.
+                    <br>
+                    Xingyi Zhang, Jinchao Huang, <b>Fangyuan Zhang</b>, Sibo Wang.
                     <br>
                     International Journal on Very Large Data Bases (<b>VLDBJ</b>), 33(5): 1723-1742, 2024.
                 </li>
-                
-                <li>Scalable Approximate Butterfly and Bi-triangle Counting for Large Bipartite Networks
+
+                <li>Scalable Approximate Butterfly and Bi-triangle Counting for Large Bipartite Networks.
                     <br>
-                    <b>Fangyuan Zhang</b>, Dechuang Chen, Sibo Wang, Yin Yang, Junhao Gan
+                    <b>Fangyuan Zhang</b>, Dechuang Chen, Sibo Wang, Yin Yang, Junhao Gan.
                     <br>
                     Proceedings of the ACM SIGMOD International Conference on Management of Data (<b>SIGMOD</b>), 259:1-259:26, 2024.
                 </li>
-                
-                <li>Efficient Approximation Framework for Attribute Recommendation
+
+                <li>Efficient Approximation Framework for Attribute Recommendation.
                     <br>
-                    Xingguang Chen, <b>Fangyuan Zhang</b>, Jinchao Huang, Sibo Wang
+                    Xingguang Chen, <b>Fangyuan Zhang</b>, Jinchao Huang, Sibo Wang.
                     <br>
                     Proceedings of the ACM SIGMOD International Conference on Management of Data (<b>SIGMOD</b>), 239:1-239:26, 2024.
                 </li>
-                
+
                 <li>Efficient Algorithm for Budgeted Adaptive Influence Maximization: An Incremental RR-set Update Approach.
                     <br>
-                    Qintian Guo, Chen Feng, <b>Fangyuan Zhang</b>, Sibo Wang
+                    Qintian Guo, Chen Feng, <b>Fangyuan Zhang</b>, Sibo Wang.
                     <br>
-                    Proceedings of the ACM SIGMOD International Conference on Management of Data (<b>SIGMOD</b>), , 207:1-207:26, 2024.
+                    Proceedings of the ACM SIGMOD International Conference on Management of Data (<b>SIGMOD</b>), 207:1-207:26, 2024.
                 </li>
-                
-                <li>Efficient Dynamic Weighted Set Sampling and Its Extension
+
+                <li>Efficient Dynamic Weighted Set Sampling and Its Extension.
                     <br>
-                    <b>Fangyuan Zhang</b>, Mengxu Jiang, Sibo Wang
+                    <b>Fangyuan Zhang</b>, Mengxu Jiang, Sibo Wang.
                     <br>
-                    Proceedings of the VLDB Endowment (<b>PVLDB</b>), 17(1): 15-27, 2024.
+                    Proceedings of the VLDB Endowment (<b>VLDB</b>), 17(1): 15-27, 2023.
                 </li>
-                
-                <li>Personalized PageRank on Evolving Graphs with an Incremental Index-Update Scheme
+
+                <li>Personalized PageRank on Evolving Graphs with an Incremental Index-Update Scheme.
                     <br>
-                    Guanhao Hou, Qintian Guo, <b>Fangyuan Zhang</b>, Sibo Wang, Zhewei Wei
+                    Guanhao Hou, Qintian Guo, <b>Fangyuan Zhang</b>, Sibo Wang, Zhewei Wei.
                     <br>
                     Proceedings of the ACM SIGMOD International Conference on Management of Data (<b>SIGMOD</b>), 1(1): 25:1-25:26, 2023.
                 </li>
-                
-                <li>Effective Indexing for Dynamic Structural Graph Clustering
+
+                <li>Efficient Approximate Algorithms for Empirical Variance with Hashed Block Sampling.
                     <br>
-                    <b>Fangyuan Zhang</b>, Sibo Wang
+                    Xingguang Chen, <b>Fangyuan Zhang</b>, Sibo Wang.
                     <br>
-                    Proceedings of the VLDB Endowment (<b>PVLDB</b>), 15(11): 2908-2920, 2022
+                    Proceedings of the ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (<b>KDD</b>), pages 157-167, 2022.
                 </li>
 
-                <li>Efficient Approximate Algorithms for Empirical Variance with Hashed Block Sampling
+                <li>Effective Indexing for Dynamic Structural Graph Clustering.
                     <br>
-                    Xingguang Chen, <b>Fangyuan Zhang</b>, Sibo Wang
+                    <b>Fangyuan Zhang</b>, Sibo Wang.
                     <br>
-                    Proceedings of the ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (<b>SIGKDD</b>), pages 157-167, 2022.
-
+                    Proceedings of the VLDB Endowment (<b>VLDB</b>), 15(11): 2908-2920, 2022.
                 </li>
-                </ul>
+            </ul>
+        </div>
 
-
-            <!-- <li> -->
-
-                <div>
-            </div>
-        <div>
-  <div>
-
-      
+        <!-- Experience -->
         <div>
             <div class="section-title">Experience</div>
             <hr>
             <ul>
-                
-                <li>Research Intern, Alibaba
+                <li><b>Professor</b>, Harbin Institute of Technology (Shenzhen)
                     <br>
-                    Hangzhou, China, Jul 2024 - Feb 2025.
+                    Shenzhen, China, Mar. 2026 – Present.
                     <br>
-                    Topic: Algorithms in vector database. Advised by Dr. Wenchao Zhou.
+                    Awardee of Distinguished Young Scholars (Overseas). Leading research on Data+AI, vector search and indexing, massive data algorithms, and LLM-based applications.
                 </li>
-                <li>Research Intern, Microsoft Research Asia
+                <li><b>Principal Researcher</b>, Huawei Hong Kong Research Center (HKRC)
                     <br>
-                    Beijing, China, Jul 2020 - Jan 2021
+                    Hong Kong SAR, Mar. 2025 – Feb. 2026.
                     <br>
-                    Advised by researcher Bin Zhu.
+                    Leading research and implementation in the Data+AI domain for GaussDB products. Managing domestic and international research collaborations.
                 </li>
-                <li>
-                    Security Research Intern, Tencent
+                <li><b>Research Intern</b>, Alibaba Cloud
                     <br>
-                    Shanghai, China, Jul 2019 - Sep 2019
+                    Hangzhou, China, Aug. 2024 – Mar. 2025.
                     <br>
-                    Advised by researcher Tianyi Xie.
+                    Developed hybrid query processing algorithms for vector databases. Contributed to the core engine of AnalyticDB for PostgreSQL.
+                </li>
+                <li><b>Research Intern</b>, Microsoft Research Asia (MSRA)
+                    <br>
+                    Beijing, China, Jul. 2020 – Dec. 2020.
+                    <br>
+                    Conducted research on privacy-preserving machine learning models. Collaborated with the Microsoft Forms team.
+                </li>
+                <li><b>Security Research Intern</b>, Tencent
+                    <br>
+                    Shanghai, China, Jul. 2019 – Sep. 2019.
+                    <br>
+                    Competed in Defcon CTF with the A*0*e team. Engineered a RISC-V disassembler plugin for IDA Pro.
                 </li>
             </ul>
-
         </div>
 
-            <div class="section-title">Services</div>
+        <!-- Academic Services -->
+        <div>
+            <div class="section-title">Academic Services</div>
             <hr>
-            <ul>I am/was also the invited reviewer for the following conferences/journals:
-                <li>ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (SIGKDD)</li>
-                <li>IEEE Transactions on Knowledge and Data Engineering (TKDE)</li>
-                <li>IEEE International Conference on Data Engineering (ICDE)</li>
+            <ul>
+                <li><b>Session Chair:</b> ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (SIGKDD).</li>
+                <li><b>Invited Reviewer:</b> SIGKDD, WWW, ICDE, WSDM, DASFAA, PAKDD, TKDE.</li>
             </ul>
         </div>
 
+        <!-- Invited Talks -->
         <div>
             <div class="section-title">Invited Talks</div>
             <hr>
             <ul>
-                <li>Sampling algorithms for big data analytics. 2024@USTC</li>
+                <li>Sampling algorithms for big data analytics. 2024 @ USTC</li>
             </ul>
         </div>
-            
+
+        <!-- Selected Awards -->
         <div>
             <div class="section-title">Selected Awards</div>
             <hr>
             <ul>
-                
-                <li>KDD Outstanding Reviewer</a>, KDD, 2025</li>
-                <li>KDD Commendable Reviewer</a>, KDD, 2024</li>
-                <li>VLDB Travel Award</a>, VLDB, 2024</li>
-                <li>Shanghai Jiao Tong University Scholarship</a>, SJTU, 2017-2021</li>
-                <li>Zhiyuan Honorary Scholarship</a>, SJTU, 2017-2021</li>
-                <!-- <li>Defcon CTF</li> -->
-                <li>Silver Medal, National Olympiad in Informatics (NOI), 2016</li>
+                <li>ICSE 2026 Distinguished Solution Paper</li>
+                <li>KDD 2025 Outstanding Reviewer</li>
+                <li>KDD 2024 Commendable Reviewer</li>
+                <li>VLDB Travel Award</li>
+                <li>CUHK Postgraduate Scholarship</li>
+                <li>Zhiyuan Honorary Scholarship, SJTU, 2017–2021</li>
+                <li>Shanghai Jiao Tong University Scholarship (Top 15%), 2017–2021</li>
+                <li>Silver Medal, National Olympiad in Informatics (NOI), 33rd</li>
+                <li>First Prize, National Olympiad in Informatics in Provinces (NOIP), 21st</li>
             </ul>
         </div>
 
+        <!-- Teaching Experience -->
         <div>
             <div class="section-title">Teaching Experience</div>
             <hr>
             <ul>
-                <li>TA of Data Structures, 2022 Spring@CUHK</li>
-                <li>TA of Financial Informatics, 2021fall@CUHK</li>
-                <li>TA of Data Structures, 2018fall@SJTU</li>
+                <li>TA of FTEC 4005 (Financial Informatics), 2021 Fall @ CUHK</li>
+                <li>TA of FTEC 4003 (Data Mining for FinTech) @ CUHK</li>
+                <li>TA of CSCI 2100 (Data Structures), 2022 Spring @ CUHK</li>
+                <li>TA of CS221 (Data Structures), 2018 Fall @ SJTU</li>
             </ul>
         </div>
 
+        <!-- Education -->
         <div>
-            <div class="footer">
-            Copyright &copy; 2025 Fangyuan Zhang
-            </div>
+            <div class="section-title">Education</div>
+            <hr>
+            <ul>
+                <li><b>Ph.D. in Systems Engineering and Engineering Management</b>
+                    <br>
+                    The Chinese University of Hong Kong (CUHK), Hong Kong SAR, Aug. 2021 – Mar. 2025.
+                    <br>
+                    Advisor: Prof. Sibo Wang. Member of the Database Research Group.
+                </li>
+                <li><b>B.E. in Computer Science (ACM Class)</b>
+                    <br>
+                    Shanghai Jiao Tong University (SJTU), Shanghai, China, Sep. 2017 – Jun. 2021.
+                    <br>
+                    Member of the prestigious ACM Honored Class (Top 5% of CS students).
+                </li>
+            </ul>
         </div>
 
+        <div class="footer">
+            Copyright &copy; 2026 Fangyuan Zhang
+        </div>
     </div>
-
 </body>
 
 </html>
